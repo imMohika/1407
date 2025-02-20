@@ -62,7 +62,7 @@ const formatDate = (date: Date): string => {
 
 			if (weekDate <= currentDate) {
 				week.classList.add("bg-gray-500");
-				week.setAttribute("passed", "true");
+				week.setAttribute("data-passed", "true");
 			}
 
 			idx++;
